@@ -1,18 +1,7 @@
-## Getting Started
+## Desafio Java DIO - Controle de Fluxo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Recentemente, completei um desafio de codificação em Java, que fazia parte do módulo de Controle de Fluxo da Trilha Java Básico na DIO. A tarefa envolvia criar um programa que recebesse dois números inteiros como parâmetros via terminal e imprimisse uma sequência de números com base na diferença entre esses dois valores. Se o primeiro número fosse maior que o segundo, eu precisava lançar uma exceção customizada.
 
-## Folder Structure
+Para isso, criei um projeto chamado DesafioControleFluxo com duas classes principais: Contador e ParametrosInvalidosException. Na classe Contador, utilizei um Scanner para capturar os valores de entrada e implementei a lógica de contagem. Se os valores fossem inválidos (ou seja, o primeiro maior que o segundo), minha exceção personalizada ParametrosInvalidosException seria lançada com a mensagem "O segundo parâmetro deve ser maior que o primeiro". Caso contrário, um loop for imprimia a sequência de números incrementados no console.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Foi uma experiência prática excelente que consolidou meu entendimento sobre controle de fluxo e manipulação de exceções em Java.
